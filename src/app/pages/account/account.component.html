@@ -1,0 +1,486 @@
+<main id="main-wrap">
+    <div>
+        <div class="main">
+            <div class="main-content-custome">
+                <div class="row">
+                    <div class="col-md-3">
+
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fa fa-user" aria-hidden="true"></i> Cá Nhân
+                            </div>
+                            <div class="list-group list-group-flush" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-user-list"
+                                    data-toggle="list" href="#list-user" role="tab" aria-controls="user">
+                                    <i class="fa fa-user" aria-hidden="true"></i> Thông tin</a>
+                                <a class="list-group-item list-group-item-action" id="list-password-list"
+                                    data-toggle="list" href="#list-password" role="tab" aria-controls="password"><i
+                                        class="fa fa-pencil" aria-hidden="true"></i> Đổi mật khẩu</a>
+                                <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                    data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i
+                                        class="fa fa-inbox" aria-hidden="true"></i> Tin nhắn</a>
+                                <a class="list-group-item list-group-item-action" id="list-cart-list" data-toggle="list"
+                                    href="#list-cart" role="tab" aria-controls="cart"><i class="fa fa-shopping-cart"
+                                        aria-hidden="true"></i> Giỏ hàng</a>
+                                <a class="list-group-item list-group-item-action" id="list-order-list"
+                                    data-toggle="list" href="#list-orders" role="tab" aria-controls="orders"><i
+                                        class="fa fa-file" aria-hidden="true"></i> Đơn hàng</a>
+                                <a class="list-group-item list-group-item-action" id="list-shop-list" data-toggle="list"
+                                    href="#list-shop" role="tab" aria-controls="shop"><i class="fa fa-home"
+                                        aria-hidden="true"></i> Cửa hàng</a>
+                                <a class="list-group-item list-group-item-action" id="list-transport-list"
+                                    data-toggle="list" href="#list-transport" role="tab" aria-controls="transport"><i
+                                        class="fa fa-plane" aria-hidden="true"></i> Vận
+                                    chuyển</a>
+                                <a class="list-group-item list-group-item-action" id="list-transfer-list"
+                                    data-toggle="list" href="#list-transfer" role="tab" aria-controls="transfer"><i
+                                        class="fa fa-check" aria-hidden="true"></i> Khoản nộp</a>
+                                <a class="list-group-item list-group-item-action" id="list-finance-list"
+                                    data-toggle="list" href="#list-finance" role="tab" aria-controls="finance"><i
+                                        class="fa fa-dashboard" aria-hidden="true"></i> Tài chính</a>
+                                <a class="list-group-item list-group-item-action"><i class="fa fa-sign-out"
+                                        aria-hidden="true"></i> Đăng xuất</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-user" role="tabpanel"
+                                aria-labelledby="list-user-list">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa fa-user" aria-hidden="true"></i> Thông tin
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Tên đăng
+                                                nhập</label>
+                                            <div class="col">
+                                                <input type="text" class="form-control"
+                                                    placeholder="Nhập tên đăng nhập">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Họ tên</label>
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Nhập họ tên">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class=" col-sm-3 col-form-label">Email</label>
+                                            <div class="col">
+                                                <input type="email" class="form-control" placeholder="Nhập email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Địa chỉ</label>
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Nhập điện chỉ">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Số điện thoại</label>
+                                            <div class="col">
+                                                <input type="text" class="form-control"
+                                                    placeholder="Nhập số điện thoại">
+                                            </div>
+                                        </div>
+                                        <div class="form-group text-center">
+                                            <button type="button" class="btn btn-success">Lưu</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-password" role="tabpanel"
+                                aria-labelledby="list-password-list">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa fa-user" aria-hidden="true"></i> Thay đổi mật khẩu
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="form-group row">
+                                            <label class="col-sm-2 col-form-label">Mật khẩu cũ</label>
+                                            <div class="col">
+                                                <input type="password" class="form-control"
+                                                    placeholder="Nhập mật khẩu cũ">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-sm-2 col-form-label">Mật khẩu</label>
+                                            <div class="col">
+                                                <input type="password" class="form-control"
+                                                    placeholder="Nhập mật khẩu mới">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class=" col-sm-2 col-form-label">Mật khẩu</label>
+                                            <div class="col">
+                                                <input type="password" class="form-control"
+                                                    placeholder="Nhập lại mật khẩu mới">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group text-center">
+                                            <button type="button" class="btn btn-success">Lưu</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                                aria-labelledby="list-messages-list">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa fa-user" aria-hidden="true"></i> Tin nhắn
+                                    </div>
+
+                                    <div class="card-body p-0">
+
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control form-control-sm pl-5"
+                                                    placeholder="Tìm kiếm">
+                                                <ul class="list-group" style="height: 300px; overflow-y: scroll">
+                                                    <li class="list-group-item">
+                                                        <img src="../../../assets/pages/images/icon_users/icon_admin.png"
+                                                            style="width: 30px; float: left;">
+                                                        <p style="float: left;font-size: 15px; margin-left: 10px;">
+                                                            admin</p>
+                                                        <span style="float: right; font-size: 10px;">12/2/2019</span>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <img src="../../../assets/pages/images/icon_users/icon_admin.png"
+                                                            style="width: 30px; float: left;">
+                                                        <p style="float: left;font-size: 15xpx; margin-left: 10px;">
+                                                            admin</p>
+                                                        <span style="float: right; font-size: 10px;">12/2/2019</span>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <img src="../../../assets/pages/images/icon_users/icon_admin.png"
+                                                            style="width: 30px; float: left;">
+                                                        <p style="float: left;font-size: 15px; margin-left: 10px;">
+                                                            admin</p>
+                                                        <span style="float: right; font-size: 10px;">12/2/2019</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="pt-3 pl-3"
+                                                    style="height: 300px; overflow-y: scroll; border: 1px solid rgba(0,0,0,.125);">
+                                                    <div>
+                                                        <img src="../../../assets/pages/images/icon_users/icon_admin.png"
+                                                            style="width: 30px; float: left;">
+                                                        <p
+                                                            style="background: #ebebeb none repeat scroll 0 0; margin-left: 40px; width: fit-content; padding: 5px;border-radius: 5px;">
+                                                            Hello men</p>
+                                                        <span style="color: #929292;
+                                                                        display: block;
+                                                                        font-size: 11px;
+                                                                        margin: 1px 0 0;
+                                                                        margin-top: 7px;"> 11/06/19 | 10:23</span>
+                                                    </div>
+
+                                                    <div style="float: right" class="pr-1">
+                                                        <img src="../../../assets/pages/images/icon_users/icon_admin.png"
+                                                            style="width: 30px; float: left;">
+                                                        <p
+                                                            style="background: #44778A none repeat scroll 0 0; margin-left: 40px; width: fit-content; padding: 5px; border-radius: 5px;color: white">
+                                                            555555555 </p>
+                                                        <span style="color: #929292;
+                                                                        display: block;
+                                                                        font-size: 11px;
+                                                                        margin-top: 7px;"> 11/06/19 | 10:23</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="type_msg">
+                                                    <div class="input_msg_write">
+                                                        <span class="btn btn-file">
+                                                            <i class="fa fa-file-image-o"></i>
+                                                            <input type="file">
+                                                        </span>
+                                                        <input type="text" class="write_msg" id="type-message"
+                                                            placeholder="Nhập tin nhắn">
+                                                        <button class="msg_send_btn" type="button"><i
+                                                                class="fa fa-paper-plane-o"
+                                                                aria-hidden="true"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-cart" role="tabpanel" aria-labelledby="list-cart-list">
+                                <div class="card">
+                                    <div class="card-header">
+
+                                        <div class="form-group row">
+                                            <label class="col-auto pr-0 col-form-label"><i class="fa fa-user"
+                                                    aria-hidden="true"></i> Giỏ hàng</label>
+                                            <div class="col-auto">
+                                                <select class="form-control form-control-sm">
+                                                    <option>Sỉ</option>
+                                                    <option>Lẻ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table id="mytable" class="table table-bordered table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>STT</th>
+                                                        <th>Sản phẩm</th>
+                                                        <th style="min-width:70px">Giá</th>
+                                                        <th>Số lượng</th>
+                                                        <th style="min-width:70px">Tổng</th>
+                                                        <th>Xóa</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                        </div>
+
+                                        <button type="button" class="btn btn-success pull-right">Thêm sản
+                                            phẩm</button>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="list-orders" role="tabpanel"
+                                aria-labelledby="list-orders-list">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa fa-file" aria-hidden="true"></i> Danh sách đơn hàng
+                                    </div>
+
+                                    <div class="card-body">
+
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <div class="form-group row">
+                                                    <label class=" col-3 col-form-label">Đơn hàng</label>
+                                                    <div class="col">
+                                                        <select class="form-control form-control-sm">
+                                                            <option>Tất cả</option>
+                                                            <option>Sỉ</option>
+                                                            <option>Lẻ</option>
+                                                        </select>
+
+                                                    </div>
+
+                                                    <label class=" col-3 col-form-label">Trạng thái</label>
+                                                    <div class="col">
+                                                        <select class="form-control form-control-sm">
+                                                            <option value="-10" selected="">Tất cả</option>
+                                                            <option value="=0">Chưa đặt cọc</option>
+                                                            <option value="=1">Đã duyệt</option>
+                                                            <option value="=2">Đã mua hàng</option>
+                                                            <option value="=3">Đã thanh toán</option>
+                                                            <option value="=5">Đang vận chuyển</option>
+                                                            <option value="=6">Đã nhận hàng</option>
+                                                            <option value="=7">Đã hủy</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group row">
+                                                    <label class=" col-3 col-form-label">Mã đơn hàng</label>
+                                                    <div class="col">
+                                                        <input type="text" class="form-control form-control-sm"
+                                                            placeholder="Nhập mã đơn hàng">
+
+                                                    </div>
+
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class="col-md-4 pull-right">
+                                                <div class="row">
+                                                    <div class="col-6">Mới</div>
+                                                    <div>8</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-6">Đang xử lý</div>
+                                                    <div>8</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-6">Đã hủy</div>
+                                                    <div>8</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-6">Đã nhận</div>
+                                                    <div>8</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-center mb-2">
+                                            <button type="button" class="btn btn-success"><i
+                                                    class="fa fa-search"></i></button>
+                                        </div>
+
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>STT</th>
+                                                        <th>Sản phẩm</th>
+                                                        <th>Số lượng</th>
+                                                        <th>Tổng tiền</th>
+                                                        <th style="min-width:70px">Trạng thái</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="list-shop" role="tabpanel" aria-labelledby="list-shop-list">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa fa-home" aria-hidden="true"></i> Cửa hàng
+                                    </div>
+
+                                    <div class="card-body">
+
+
+                                        <div class="table-responsive">
+                                            <table id="mytable" class="table table-bordered table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>STT</th>
+                                                        <th>Mã</th>
+                                                        <th>Sản phẩm</th>
+                                                        <th>Tổng tiền</th>
+                                                        <th>Trạng thái</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="list-transport" role="tabpanel"
+                                aria-labelledby="list-transport-list">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa fa-plane" aria-hidden="true"></i> Vận chuyển
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table id="mytable" class="table table-bordered table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>STT</th>
+                                                        <th>Tracking Number</th>
+                                                        <th>Mã vận đơn</th>
+                                                        <th>Cân nặng</th>
+                                                        <th>Thành tiền(VND)</th>
+                                                        <th>Trạng thái</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                        </div>
+
+                                        <button type="button" class="btn btn-success">Tạo vận đơn</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane fade" id="list-transfer" role="tabpanel"
+                                aria-labelledby="list-transfer-list">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa fa-check" aria-hidden="true"></i> Khoản nộp
+                                        <div class="pull-right">
+                                            <label>Số tiền: &nbsp;<strong style="color:red">-102.32362</strong> JPY
+                                                ≈ &nbsp;<strong style="color:red">-21.999.5783 </strong> VND</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>STT</th>
+                                                        <th>JPY</th>
+                                                        <th>VND</th>
+                                                        <th>Thời gian</th>
+                                                        <th>Ghi chú</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="list-finance" role="tabpanel"
+                                aria-labelledby="list-finance-list">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa fa-dashboard" aria-hidden="true"></i> Tài chính
+                                        <div class="pull-right">
+                                            <label>Số tiền: &nbsp;<strong style="color:red">-102.32362</strong> JPY
+                                                ≈ &nbsp;<strong style="color:red">-21.999.5783 </strong> VND</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>STT</th>
+                                                        <th>JPY</th>
+                                                        <th>VND</th>
+                                                        <th>Diff</th>
+                                                        <th>Tiền nạp</th>
+                                                        <th>Thời gian</th>
+                                                        <th>Ghi chú</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
