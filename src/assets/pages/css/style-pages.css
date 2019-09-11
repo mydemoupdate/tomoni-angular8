@@ -1,0 +1,392 @@
+body {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    line-height: 1;
+  }
+.Price__body{
+    margin: 0 15px;
+    padding: 15px 0;
+}  
+.Price__title{
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.Price__value{
+    color: #cb5201;
+    font-size: 24px;
+}
+.Price__tax{
+    display: inline-block;
+    color: #000;
+    font-size: 50%;
+    font-weight: 400;
+}
+.Count__count {
+    margin: 6px 0 4px 0;
+    padding: 0 13px;
+}
+.Count__title {
+    margin-bottom: 5px;
+}
+.Count__number {
+    font-size: 150%;
+}
+.Count__count--sideLine {
+    border-left: 1px dotted #ccc;
+    /* padding-right: 0; */
+}
+
+.Button--watch {
+    position: relative;
+    display: block;
+    width: 307px;
+    height: 48px;
+    margin: 0 auto;
+    border: 1px solid #9f9e98;
+    color: #33322f;
+    background-color: #f6f6f1;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: inherit;
+    vertical-align: bottom;
+    cursor: pointer;
+    -webkit-transition: opacity .1s ease-out;
+    -moz-transition: opacity .1s ease-out;
+    transition: opacity .1s ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 48px;
+    height: 21px;
+    padding-top: 27px;
+    padding-bottom: 15px;
+    border-width: 2px;
+    background-image: url(../images/bg_star.png);
+    background-repeat: no-repeat;
+    background-position: center 4px;
+    line-height: 1.2;
+    font-size: 68.75%;
+}
+.Button--watch:before {
+    height: 8px;
+    border-radius: 0 0 3px 3px;
+}
+.Button--watch:after, .Button--watch:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.Button--watch:after {
+    height: 4px;
+    bottom: 4px;
+    border-radius: 0 0 4px 4px;
+}
+.Button--watch:after, .Button--watch:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.Price__postage {
+    margin: 15px 0 2px;
+}
+.Price__postageTitle {
+    font-weight: 700;
+}
+.Price__postageValue {
+    margin-left: 12px;
+}
+.Price__postageValue--bold {
+    font-weight: 700;
+    margin: 0;
+}
+.ProductInformation__item {
+    /* border-left: 1px solid #d3d2cc; */
+    /* border-right: 1px solid #d3d2cc; */
+    /* border-bottom: 1px solid #d3d2cc; */
+    overflow: hidden;
+}
+.Seller {
+    /* position: relative; */
+    padding: 15px 15px 0 15px;
+    *zoom: 1;
+}
+.Seller__title {
+    margin-bottom: 10px;
+    letter-spacing: -.4em;
+}
+.Seller__titleText {
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+.Seller__subCard {
+    margin-bottom: 10px;
+}
+.Seller__rating {
+    margin-top: 10px;
+    line-height: 1.1;
+}
+.Seller__subCard.cvr273 .Seller__ratingTitle {
+    width: 150px;
+    font-size: 13px;
+}
+.Seller__subCard.cvr273 .Seller__ratingCount {
+    width: 150px;
+    font-size: 13px;
+    border-left: 1px solid #ccc;
+    text-align: left;
+}
+
+.Seller__subCard.cvr273 .Seller__ratingGood {
+    margin-left: 10px;
+}
+.Seller__otherItem {
+    margin-top: 10px;
+}
+.Seller__other {
+    display: inline-block;
+    color: #2a7bb4;
+}
+.Seller__area {
+    margin-top: 10px;
+    line-height: 1.1;
+}
+
+.Seller__note {
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+.Seller__noteItem {
+    margin-bottom: 10px;
+}
+ol li, ul li {
+    list-style: none;
+}
+.Seller__alertButton {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: 34px;
+    margin: 0 auto;
+    border: 1px solid #9f9e98;
+    color: #33322f;
+    background-color: #f6f6f1;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: inherit;
+    vertical-align: bottom;
+    cursor: pointer;
+    -webkit-transition: opacity .1s ease-out;
+    -moz-transition: opacity .1s ease-out;
+    transition: opacity .1s ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    padding-left: 35px;
+    padding-right: 20px;
+    background-image: url(https://s.yimg.jp/images/icon/f/bsc/1.0.0/bell16.png);
+    background-repeat: no-repeat;
+    background-position: 15px 7px;
+    font-size: 81.25%;
+}
+.Seller__alertButton:before {
+    height: 8px;
+    border-radius: 0 0 3px 3px;
+    background-color: #e2e1da;
+}
+.Seller__alertButton:after {
+    height: 4px;
+    bottom: 4px;
+    border-radius: 0 0 4px 4px;
+    background-color: #f6f6f1;
+}
+.Seller__noteItem {
+    margin-bottom: 10px;
+}
+.Seller__questionButton {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: 34px;
+    margin: 0 auto;
+    border: 1px solid #9f9e98;
+    color: #33322f;
+    background-color: #f6f6f1;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: inherit;
+    vertical-align: bottom;
+    cursor: pointer;
+    -webkit-transition: opacity .1s ease-out;
+    -moz-transition: opacity .1s ease-out;
+    transition: opacity .1s ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    font-size: 81.25%;
+}
+
+.ProductImage {
+    visibility: hidden;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+    overflow: hidden;
+    *width: 100%;
+}
+.ProductImage__body {
+    padding-left: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+.ProductImage__images {
+    position: relative;
+    width: 6160px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    left: -300px;
+    text-align: center;
+}
+.Seller__name {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    max-width: 213px;
+    *width: 213px;
+    margin-right: 8px;
+    word-break: break-all;
+    vertical-align: middle;
+    line-height: 1.125;
+    margin-bottom: 10px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlideImage{
+      text-align: center;
+  }
+  .mySlide {
+    display: none;
+  }
+  .mySlideImage>img{
+      /* height: 300px;; */
+  }
+  
+  .mySlides-show{
+      display: block;
+  }
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.detail-product-right{
+    border: 1px solid #d3d2cc;
+    padding: 14px;
+}

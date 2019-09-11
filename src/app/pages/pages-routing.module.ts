@@ -5,6 +5,7 @@ import { ContentComponent } from './content/content.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { AccountComponent } from './account/account.component';
+import { DetailProductComponent } from './detail-product/detail-product.component';
 
 
 
@@ -20,6 +21,7 @@ const adminRoutes: Routes = [
           { path: 'sign-in', component: SignInComponent  },
           { path: 'sign-up', component: SignUpComponent  },
           { path: 'account', component: AccountComponent  },
+          { path: 'detail-product', component: DetailProductComponent  },
         ]
       }
     ]

@@ -8,12 +8,17 @@ import { PagesFooterComponent } from './pages-footer/pages-footer.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { AccountComponent } from './account/account.component';
+import { AccountService } from '../service/account.service';
+import { HttpClientModule } from '@angular/common/http';
+import { DetailProductComponent } from './detail-product/detail-product.component';
+import { DetailProductService } from '../service/detail-product.service';
 
 
 @NgModule({
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    HttpClientModule
   ],
   declarations: [
     PagesComponent,
@@ -22,7 +27,12 @@ import { AccountComponent } from './account/account.component';
     PagesFooterComponent,
     SignInComponent,
     SignUpComponent,
-    AccountComponent
+    AccountComponent,
+    DetailProductComponent
+  ],
+  providers: [
+    // AccountService4
+    DetailProductService
   ]
 })
 export class PageModule {}

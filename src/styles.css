@@ -1,3 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
 @import './assets/pages/css/style.scss';
 @import './assets/pages/css/style-custom.css';
+@import './assets/pages/css/style-pages.css';
